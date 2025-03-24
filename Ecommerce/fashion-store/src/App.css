@@ -1,0 +1,25 @@
+
+/* .navbar{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: aquamarine;
+  
+}
+.logo{
+  height: 30px;
+  width: 30px;
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+} */
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: beige;
+  padding: 20px;
+}

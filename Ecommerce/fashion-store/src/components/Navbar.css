@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C6B8D9; 
+    padding: 0 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .searchbar{
+    width: 600px;
+    
+  }
+  
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .search i,
+  .acc i,
+  .wishlist i,
+  .cart i {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
+  
+  .search,
+  .acc,
+  .wishlist,
+  .cart {
+    color: #32253F;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .search:hover,
+  .acc:hover,
+  .wishlist:hover,
+  .cart:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .search{
+   
+    display: flex;
+  
+  }
+  
